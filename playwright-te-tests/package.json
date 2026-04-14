@@ -1,0 +1,12 @@
+{
+  "name": "playwright-te-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:ibm": "playwright test --project=ibm-3270"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "typescript": "^6.0.2"
+  }
+}

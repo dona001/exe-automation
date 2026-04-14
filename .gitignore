@@ -1,0 +1,26 @@
+# Original EXE/DLL binaries (too large for git)
+*.exe
+*.dll
+*.ini
+
+# Decompiled/extracted artifacts
+AQTEServer.exe_extracted/
+AQTEServer_decompiled/
+
+# Test logs
+test-logs/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+.docker/
+
+# OS files
+.DS_Store
+Thumbs.db
