@@ -1,14 +1,16 @@
-# Original EXE/DLL binaries (too large for git)
-*.exe
-*.dll
-*.pyd
-*.zip
-
-# Original application directories
-AQJavaServer/
+# Original binaries (root level)
+AQTEServer.exe
+hll.dll
+wc3270.exe
 te.ini
 
-# Decompiled/extracted artifacts
+# Original AQJavaServer binary artifacts
+/AQJavaServer/
+/aq-java-server/_internal/
+/aq-java-server/dll/
+/aq-java-server/AQJavaServer.exe
+
+# Extracted/decompiled artifacts
 AQTEServer.exe_extracted/
 AQTEServer_decompiled/
 AQJavaServer.exe_extracted/
@@ -23,6 +25,7 @@ package-lock.json
 # Python
 __pycache__/
 *.pyc
+aqjbridge.log
 
 # Docker
 .docker/

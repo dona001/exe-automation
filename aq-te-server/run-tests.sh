@@ -23,7 +23,7 @@ set -e
 # ---------------------------------------------------------------------------
 
 BASE_URL="http://localhost:9995"
-DOCKER_DIR="docker-te-server"
+DOCKER_DIR="docker"
 SESSION="autotest"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 LOG_DIR="test-logs"

@@ -12,7 +12,7 @@ import path from "path";
 
 const TE_SERVER_PORT = 9995;
 const TE_SERVER_URL = `http://localhost:${TE_SERVER_PORT}`;
-const DOCKER_DIR = path.resolve(__dirname, "../../docker-te-server");
+const DOCKER_DIR = path.resolve(__dirname, "../docker");
 
 /**
  * Wait for the TE server to be ready (accepting requests).
