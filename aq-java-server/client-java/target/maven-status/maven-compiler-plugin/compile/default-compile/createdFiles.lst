@@ -1,5 +1,6 @@
 com/aqbridge/JavaElement.class
 com/aqbridge/JavaTable.class
 com/aqbridge/JavaBridgeException.class
+com/aqbridge/JavaBridgeServer.class
 com/aqbridge/JavaTable$TableInfo.class
 com/aqbridge/JavaApp.class
