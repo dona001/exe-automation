@@ -1,10 +1,17 @@
 # Original EXE/DLL binaries (too large for git)
 *.exe
 *.dll
-*.ini
+*.pyd
+*.zip
+
+# Original application directories
+AQJavaServer/
+te.ini
 
 # Decompiled/extracted artifacts
 AQTEServer.exe_extracted/
+AQTEServer_decompiled/
+AQJavaServer.exe_extracted/
 
 # Test logs
 test-logs/
