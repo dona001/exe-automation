@@ -18,6 +18,14 @@ AQJavaServer.exe_extracted/
 # Test logs
 test-logs/
 
+# Build artifacts
+target/
+dependency-reduced-pom.xml
+*.zip
+
+# Decompiled source (local reference only)
+aqteserver-new/
+
 # Node modules
 node_modules/
 package-lock.json
